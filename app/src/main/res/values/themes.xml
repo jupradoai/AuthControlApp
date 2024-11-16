@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Tema customizado -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Personalize as cores do tema -->
+        <item name="colorPrimary">@android:color/holo_red_dark</item>
+        <item name="colorPrimaryVariant">@android:color/holo_red_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">@android:color/black</item>
+        <item name="colorError">@android:color/holo_red_dark</item>
+
+        <!-- Personalização do TextInputLayout -->
+        <item name="textInputStyle">@style/MyTextInputStyle</item>
+
+        <!-- Personalização do botão -->
+        <item name="buttonStyle">@style/MyButtonStyle</item>
+    </style>
+
+    <!-- Estilo customizado para TextInputLayout -->
+    <style name="MyTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@android:color/holo_red_dark</item>
+        <item name="hintTextColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <!-- Estilo customizado para o botão -->
+    <style name="MyButtonStyle">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
